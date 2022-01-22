@@ -9,7 +9,7 @@ from sys import exit, version_info
 from time import sleep
 
 from colorama import Fore, init
-from pyngrok import conf, ngrok
+from python import conf, ngrok
 
 from Modules.checkConfig import CheckConfigFile
 from Modules.checkUpdates import CheckUpdates
